@@ -75,9 +75,13 @@ def login():
         os.system('clear')
         print logo
         print 52 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN FACEBOOK ACCOUNT\x1b[1;91m[\xe2\x98\x86]'
-        id = raw_input('\x1b[1;91m[+] \x1b[1;97mUsername \x1b[1;91m:\x1b[1;92m ')
-        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;97mPassword \x1b[1;91m:\x1b[1;92m ')
+        print '\x1b[1;92m█████████'
+        print '\x1b[1;92m█▄█████▄█'
+        print '\x1b[1;92m█ \x1b[1;97m▼▼▼▼▼- _ --_--_-\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN FACEBOOK ACCOUNT\x1b[1;91m[\xe2\x98\x86]'
+        id = raw_input('\x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;91m[+] \x1b[1;97mUsername \x1b[1;91m:\x1b[1;92m ')
+        pwd = getpass.getpass('\x1b[1;92m█ \x1b[1;97m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;91m[+] \x1b[1;97mPassword \x1b[1;91m:\x1b[1;92m ')
+        print '\x1b[1;92m█████████'
+        print '\x1b[1;92m ██ ██'
         tik()
         try:
             br.open('https://m.facebook.com')
@@ -294,7 +298,7 @@ def menu_hack():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '║▇◤▔▔▔▔▔▔▔◥▇║\x1b[1;92m[#] \x1b[1;97m update new!
+    print '║▇◤▔▔▔▔▔▔▔◥▇║\x1b[1;92m[#] \x1b[1;97m update new!'
     print '║▇▏◥▇◣┊◢▇◤▕▇╠═▶ \x1b[1;37;40m1. Mini Hack Facebook (\x1b[1;92mTarget\x1b[1;97m)'
     print '║▇▏▃▆▅▎▅▆▃▕▇╠═▶ \x1b[1;37;40m2. Multi Bruteforce Facebook'
     print '║▇▏╱▔▕▎▔▔╲▕▇╠═▶ \x1b[1;37;40m3. Super Multi Bruteforce Facebook(\x1b[1;92mNew!\x1b[1;97m)'
