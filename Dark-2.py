@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;92m╭╮╮◢▇▇▇▇◣╭╭╮                           \x1b[1;92m╭╮╮◢▇▇▇▇◣╭╭╮\n \x1b[1;92m╰╲╲▏▂◥◤▂▕╱╱╯  \x1b[1;92m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●  \x1b[1;92m╰╲╲▏▂◥◤▂▕╱╱╯  \n \x1b[1;92m┈┈╲▇🄾▇▇🄾▇╱┈┈\x1b[1;97m   \x1b[1;97m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗    \x1b[1;92m┈┈╲▇🄾▇▇🄾▇╱┈┈\n \x1b[1;92m┈┈╱╲▔▕▍▔╱╲┈┈\x1b[1;97m   \x1b[1;97m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗   \x1b[1;92m┈┈╱╲▔▕▍▔╱╲┈┈\n \x1b[1;92m╭╱╱▕╋╋╋╋▏╲╲╮\x1b[1;97m   \x1b[1;97m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝   \x1b[1;92m╭╱╱▕╋╋╋╋▏╲╲╮\n \x1b[1;92m╰╯╯┈◥▇▇◤┈╰╰╯ \x1b[1;92m«==========✧==========»   \x1b[1;92m╰╯╯┈◥▇▇◤┈╰╰╯\n \x1b[1;97m◥✚◣DarkFb◢✚◤          RECODE\x1b[1;92m+          \x1b[1;97m◥✚◣Dark-S◢✚◤\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;92m Anonimux-S\x1b[1;97m                     ║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mSupport  \x1b[1;91m:  \x1b[1;92m \x1b[92mUniker/Termux/Github✔        \x1b[    \x1b[1;97m║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mGitHub   \x1b[1;91m:   \x1b[1;92\x1b[92mHttps://github.com/Anonimux-S\x1b[  \x1b[1;97m  ║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mEmail    \x1b[1;91m:   \x1b[1;92\x1b[92mBlackhole404not.found@gmail.com\x1b[  \x1b[1;97m║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[#] Please login using the Operamini to avoid checkpoints\n'
+logo = " \x1b[1;92m╭╮╮◢▇▇▇▇◣╭╭╮                           \x1b[1;92m╭╮╮◢▇▇▇▇◣╭╭╮\n \x1b[1;92m╰╲╲▏▂◥◤▂▕╱╱╯  \x1b[1;92m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●  \x1b[1;92m╰╲╲▏▂◥◤▂▕╱╱╯  \n \x1b[1;92m┈┈╲▇🄾▇▇🄾▇╱┈┈\x1b[1;97m   \x1b[1;97m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗    \x1b[1;92m┈┈╲▇🄾▇▇🄾▇╱┈┈\n \x1b[1;92m┈┈╱╲▔▕▍▔╱╲┈┈\x1b[1;97m   \x1b[1;97m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗   \x1b[1;92m┈┈╱╲▔▕▍▔╱╲┈┈\n \x1b[1;92m╭╱╱▕╋╋╋╋▏╲╲╮\x1b[1;97m   \x1b[1;97m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝   \x1b[1;92m╭╱╱▕╋╋╋╋▏╲╲╮\n \x1b[1;92m╰╯╯┈◥▇▇◤┈╰╰╯ \x1b[1;92m«==========✧==========»   \x1b[1;92m╰╯╯┈◥▇▇◤┈╰╰╯\n \x1b[1;97m◥✚◣DarkFb◢✚◤          RECODE\x1b[1;92m+          \x1b[1;97m◥✚◣Dark-S◢✚◤\n \x1b[1;97m╔═════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;92m Anonimux-S\x1b[1;97m                      ║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mSupport  \x1b[1;91m:  \x1b[1;92m \x1b[92mUniker/Termux/Github✔         \x1b[    \x1b[1;97m║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mGitHub   \x1b[1;91m:   \x1b[1;92\x1b[92mHttps://github.com/Anonimux-S\x1b[  \x1b[1;97m   ║\n \x1b[1;97m║ \x1b[1;91m▶  \x1b[1;97mEmail    \x1b[1;91m:   \x1b[1;92\x1b[92mBlackhole404not.found@gmail.com\x1b[  \x1b[1;97m ║   \n \x1b[1;97m╚═════════════════════════════════════════════════╝"  '\n\x1b[1;92m[#] Silahkan Login Di Operamini Terlebih Dahulu \n Untuk Menghindari Checkpoint\n'
 
 def tik():
     titik = [
@@ -161,19 +161,19 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + '║'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
     print '\x1b[1;97m╠' + 50 * '\xe2\x95\x90' + '╝'
-    print '╠═▶ \x1b[1;37;40m1. User Information'
-    print '╠═▶ \x1b[1;37;40m2. Hack Facebook Account'
-    print '╠═▶ \x1b[1;37;40m3. Bot'
-    print '╠═▶ \x1b[1;37;40m4. Others'
-    print '╠═▶ \x1b[1;37;40m5. Update'
-    print '╠═▶ \x1b[1;37;40m6. Logout'
-    print '╠═▶ \x1b[1;31;40m0. Exit'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m1. User Information'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m2. Hack Facebook Account'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m3. Bot'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m4. Others'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m5. Update'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;37;40m6. Logout'
+    print '╠︻╦̵̵͇̿̿̿̿╤──────▶ \x1b[1;31;40m0. Exit'
     print '\x1b[1;37;40m║'
     pilih()
 
 
 def pilih():
-    zedd = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    zedd = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if zedd == '':
         print '\x1b[1;91m[!] Can\'t empty'
         pilih()
@@ -235,40 +235,40 @@ def informasi():
             try:
                 print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mNama\x1b[1;97m          : ' + z['name']
             except KeyError:
-                print '\x1b[1;91m[?] \x1b[1;92mNama\x1b[1;97m          : \x1b[1;91mTidak Ada'
+                print '\x1b[1;91m[?] \x1b[1;92mName\x1b[1;97m          : \x1b[1;91mNot Found'
             else:
                 try:
                     print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mID\x1b[1;97m            : ' + z['id']
                 except KeyError:
-                    print '\x1b[1;91m[?] \x1b[1;92mID\x1b[1;97m            : \x1b[1;91mTidak Ada'
+                    print '\x1b[1;91m[?] \x1b[1;92mID\x1b[1;97m            : \x1b[1;91mNot Found'
                 else:
                     try:
                         print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mEmail\x1b[1;97m         : ' + z['email']
                     except KeyError:
-                        print '\x1b[1;91m[?] \x1b[1;92mEmail\x1b[1;97m         : \x1b[1;91mTidak Ada'
+                        print '\x1b[1;91m[?] \x1b[1;92mEmail\x1b[1;97m         : \x1b[1;91mNot Found'
                     else:
                         try:
-                            print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mNomor Telpon\x1b[1;97m  : ' + z['mobile_phone']
+                            print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mNomor Telpon\x1b[1;97m         : ' + z['mobile_phone']
                         except KeyError:
                             print '\x1b[1;91m[?] \x1b[1;92mNomor Telpon\x1b[1;97m  : \x1b[1;91mNot found'
 
                         try:
-                            print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mLokasi\x1b[1;97m      : ' + z['location']['name']
+                            print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mLokasi\x1b[1;97m         : ' + z['location']['name']
                         except KeyError:
-                            print '\x1b[1;91m[?] \x1b[1;92mLokasi\x1b[1;97m      : \x1b[1;91mTidak Ada'
+                            print '\x1b[1;91m[?] \x1b[1;92mLokasi\x1b[1;97m      : \x1b[1;91mNot Found'
 
                     try:
-                        print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mLahir\x1b[1;97m      : ' + z['birthday']
+                        print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mLahir\x1b[1;97m         : ' + z['birthday']
                     except KeyError:
-                        print '\x1b[1;91m[?] \x1b[1;92mLahir\x1b[1;97m      : \x1b[1;91mTidak Ada'
+                        print '\x1b[1;91m[?] \x1b[1;92mLahir\x1b[1;97m      : \x1b[1;91mNot Found'
 
                 try:
-                    print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mSekolah\x1b[1;97m        : '
+                    print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mSekolah\x1b[1;97m         : '
                     for q in z['education']:
                         try:
                             print '\x1b[1;91m                   ~ \x1b[1;97m' + q['school']['name']
                         except KeyError:
-                            print '\x1b[1;91m                   ~ \x1b[1;91mTidak Ada'
+                            print '\x1b[1;91m                   ~ \x1b[1;91mNot Found'
 
                 except KeyError:
                     pass
@@ -276,7 +276,7 @@ def informasi():
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
             menu()
     else:
-        print '\x1b[1;91m[\xe2\x9c\x96] Pengguna Tidak Ada'
+        print '\x1b[1;91m[\xe2\x9c\x96] User Not Found'
         raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
         menu()
 
@@ -294,19 +294,20 @@ def menu_hack():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Mini Hack Facebook (\x1b[1;92mTarget\x1b[1;97m)'
-    print '╠═▶ \x1b[1;37;40m2. Multi Bruteforce Facebook'
-    print '╠═▶ \x1b[1;37;40m3. Super Multi Bruteforce Facebook(\x1b[1;92mNew!\x1b[1;97m)'
-    print '╠═▶ \x1b[1;37;40m4. BruteForce (\x1b[1;92mTarget\x1b[1;97m)'
-    print '╠═▶ \x1b[1;37;40m5. Yahoo Clone'
-    print '╠═▶ \x1b[1;37;40m6. Get ID/Email/HP'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║▇◤▔▔▔▔▔▔▔◥▇║\x1b[1;92m[#] \x1b[1;97m update new!
+    print '║▇▏◥▇◣┊◢▇◤▕▇╠═▶ \x1b[1;37;40m1. Mini Hack Facebook (\x1b[1;92mTarget\x1b[1;97m)'
+    print '║▇▏▃▆▅▎▅▆▃▕▇╠═▶ \x1b[1;37;40m2. Multi Bruteforce Facebook'
+    print '║▇▏╱▔▕▎▔▔╲▕▇╠═▶ \x1b[1;37;40m3. Super Multi Bruteforce Facebook(\x1b[1;92mNew!\x1b[1;97m)'
+    print '║▇◣◣▃▅▎▅▃◢◢▇╠═▶ \x1b[1;37;40m4. BruteForce (\x1b[1;92mTarget\x1b[1;97m)'
+    print '║▇▇◣◥▅▅▅◤◢▇▇╠═▶ \x1b[1;37;40m5. Yahoo Clone'
+    print '║▇▇▇◣╲▇╱◢▇▇▇╠═▶ \x1b[1;37;40m6. Get ID/Email/HP'
+    print '║▇▇▇▇◣▇◢▇▇▇▇╠═▶ \x1b[1;31;40m0. Back'
     print '\x1b[1;37;40m║'
     hack_pilih()
 
 
 def hack_pilih():
-    hack = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    hack = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if hack == '':
         print '\x1b[1;91m[!] Can\'t empty'
         hack_pilih()
@@ -659,16 +660,16 @@ def super():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Crack from Friends'
-    print '╠═▶ \x1b[1;37;40m2. Crack from Group'
-    print '╠═▶ \x1b[1;37;40m3. Crack from File'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║╔★═█╔═══════════╬█║▷▶ \x1b[1;37;40m1. Crack from Friends'
+    print '║╚═█████▓▒█▒▓█████║〓▷ ▶ \x1b[1;37;40m2. Crack from Group'
+    print '║°◢███◤✇═╩═╩═╝╯✇▶ \x1b[1;37;40m3. Crack from File'
+    print '║███◤▶ \x1b[1;31;40m0. Back'
     print '\x1b[1;37;40m║'
     pilih_super()
 
 
 def pilih_super():
-    peak = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    peak = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if peak == '':
         print '\x1b[1;91m[!] Can\'t empty'
         pilih_super()
@@ -887,7 +888,7 @@ def brute():
 
         except IOError:
             print '\x1b[1;91m[!] File not found...'
-            print '\n\x1b[1;91m[!] \x1b[1;92mIt looks like you dont have wordlist'
+            print '\n\x1b[1;91m[!] \x1b[1;92mIt looks like you don't have wordlist'
             tanyaw()
 
 
@@ -926,15 +927,17 @@ def menu_yahoo():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. From Friends'
-    print '╠═▶ \x1b[1;37;40m2. From File'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '╔═══════╗
+    print '║\\//    ║╔═▶ \x1b[1;37;40m1. From Friends'
+    print '║ ||ahoo ╠╬═▶ \x1b[1;37;40m2. From File'
+    print '║ ||     ║╚═▶ \x1b[1;31;40m0. Back'
+    print '╠═══════╝
     print '\x1b[1;37;40m║'
     yahoo_pilih()
 
 
 def yahoo_pilih():
-    go = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    go = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if go == '':
         print '\x1b[1;91m[!] Can\'t empty'
         yahoo_pilih()
@@ -1090,14 +1093,14 @@ def grab():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Get ID From Friends'
-    print '╠═▶ \x1b[1;37;40m2. Get Friends ID From Friends'
-    print '╠═▶ \x1b[1;37;40m3. Get ID From GRUP'
-    print '╠═▶ \x1b[1;37;40m4. Get Friends Email'
-    print '╠═▶ \x1b[1;37;40m5. Get Friends Email From Friends'
-    print '╠═▶ \x1b[1;37;40m6. Get Phone From Friends'
-    print '╠═▶ \x1b[1;37;40m7. Get Friend\'s Phone From Friends'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║◢▇▇▇▇▇▇▇▇▇▇◣╔═▶ \x1b[1;37;40m1. Get ID From Friends'
+    print '║▇            ▇╠═▶ \x1b[1;37;40m2. Get Friends ID From Friends'
+    print '║▇            ▇╠═▶ \x1b[1;37;40m3. Get ID From GRUP'
+    print '║▇▇▇▇▇▇▇▇▇▇▇▇╠═▶ \x1b[1;37;40m4. Get Friends Email'
+    print '║▇▇▇▇▇( )▇▇▇▇▇╠═▶ \x1b[1;37;40m5. Get Friends Email From Friends'
+    print '║▇▇▇▇▇|_|▇▇▇▇▇╠═▶ \x1b[1;37;40m6. Get Phone From Friends'
+    print '║▇▇▇▇▇▇▇▇▇▇▇▇╠═▶ \x1b[1;37;40m7. Get Friend\'s Phone From Friends'
+    print '║▇▇▇▇▇▇▇▇▇▇▇▇╚═▶ \x1b[1;31;40m0. Back'
     print '\x1b[1;37;40m║'
     grab_pilih()
 
@@ -1546,20 +1549,22 @@ def menu_bot():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Bot Reactions Target Post'
-    print '╠═▶ \x1b[1;37;40m2. Bot Reactions Group Post'
-    print '╠═▶ \x1b[1;37;40m3. Bot Comment Target Post'
-    print '╠═▶ \x1b[1;37;40m4. Bot Comment Group Post'
-    print '╠═▶ \x1b[1;37;40m5. Mass Delete Post'
-    print '╠═▶ \x1b[1;37;40m6. Accept Friend Requests'
-    print '╠═▶ \x1b[1;37;40m7. Unfriends'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║       ╮   ╭
+    print '║     ◢▇▇▇▇▇▇◣
+    print '║     ▇⚪▇▇▇▇⚪▇    ╔═▶ \x1b[1;37;40m1. Bot Reactions Target Post'
+    print '║ ◢▇◣▇▇▇▇▇▇▇▇▇◢▇◣╠═▶ \x1b[1;37;40m2. Bot Reactions Group Post'
+    print '║ ▇▇ ▇▇▇▇▇▇▇▇▇ ▇▇ ╠═▶ \x1b[1;37;40m3. Bot Comment Target Post'
+    print '║ ▇▇ ▇▇▇▇▇▇▇▇▇ ▇▇ ╠═▶ \x1b[1;37;40m4. Bot Comment Group Post'
+    print '║ ▇▇ ▇▇▇▇▇▇▇▇▇ ▇▇ ╠═▶ \x1b[1;37;40m5. Auto Delete Post'
+    print '║◥yy◤▇▇▇▇▇▇▇▇▇◥yy◤╠═▶ \x1b[1;37;40m6. Auto Accept Friend Requests'
+    print '║    ◥▇▇▇▇▇▇▇▇◤    ╠═▶ \x1b[1;37;40m7. Bot Unfriends'
+    print '║     ▇▇     ▇▇     ╚═▶ \x1b[1;31;40m0. Back'
     print '\x1b[1;37;40m║'
     bot_pilih()
 
 
 def bot_pilih():
-    bots = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    bots = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if bots == '':
         print '\x1b[1;91m[!] Can\'t empty'
         bot_pilih()
@@ -1618,7 +1623,7 @@ def menu_react():
 
 def react_pilih():
     global tipe
-    aksi = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    aksi = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if aksi == '':
         print '\x1b[1;91m[!] Can\'t empty'
         react_pilih()
@@ -1716,7 +1721,7 @@ def grup_react():
 
 def reactg_pilih():
     global tipe
-    aksi = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    aksi = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if aksi == '':
         print '\x1b[1;91m[!] Can\'t empty'
         reactg_pilih()
@@ -1843,7 +1848,7 @@ def grup_komen():
         os.system('clear')
         print logo
         print 52 * '\x1b[1;97m\xe2\x95\x90'
-        print "\x1b[1;91m[!] \x1b[1;92mUse \x1b[1;97m'<>' \x1b[1;92m Gor Newline"
+        print "\x1b[1;91m[!] \x1b[1;92mUse \x1b[1;97m'<>' \x1b[1;92m For Newline"
         ide = raw_input('\x1b[1;91m[+] \x1b[1;92mGroup ID  \x1b[1;91m:\x1b[1;97m ')
         km = raw_input('\x1b[1;91m[+] \x1b[1;92mComments \x1b[1;91m:\x1b[1;97m ')
         limit = raw_input('\x1b[1;91m[!] \x1b[1;92mLimit \x1b[1;91m:\x1b[1;97m ')
@@ -1945,7 +1950,7 @@ def accept():
             print 52 * '\x1b[1;97m\xe2\x95\x90'
         else:
             print '\x1b[1;91m[+] \x1b[1;92mName  \x1b[1;91m:\x1b[1;97m ' + i['from']['name']
-            print '\x1b[1;91m[+] \x1b[1;92mID    \x1b[1;91m:\x1b[1;97m ' + i['from']['id'] + '\x1b[1;92m Berhasil'
+            print '\x1b[1;91m[+] \x1b[1;92mID    \x1b[1;91m:\x1b[1;97m ' + i['from']['id'] + '\x1b[1;92m Success'
             print 52 * '\x1b[1;97m\xe2\x95\x90'
 
     print '\n\x1b[1;91m[+] \x1b[1;97mFinish'
@@ -2004,18 +2009,18 @@ def lain():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Write Status'
-    print '╠═▶ \x1b[1;37;40m2. Make Wordlist'
-    print '╠═▶ \x1b[1;37;40m3. Account Checker'
-    print '╠═▶ \x1b[1;37;40m4. List Group'
-    print '╠═▶ \x1b[1;37;40m5. Profile Guard'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║╭╮╮◢▇▇▇▇◣╭╭╮╔═▶ \x1b[1;37;40m1. 📝Write Status'
+    print '║╰╲╲▏▂◥◤▂▕╱╱╯╠═▶ \x1b[1;37;40m2. 📠Make Wordlist'
+    print '║┈┈╲▇🄾▇▇🄾▇╱┈┈╠═▶ \x1b[1;37;40m3. 📱Account Checker'
+    print '║┈┈╱╲▔▕▍▔╱╲┈┈╠═▶ \x1b[1;37;40m4. 📋List Group'
+    print '║╭╱╱▕╋╋╋╋▏╲╲╮╠═▶ \x1b[1;37;40m5. 🔐Profile Guard'
+    print '║╰╯╯┈◥▇▇◤┈╰╰╯╚═▶ \x1b[1;31;40m0. Back'
     print '\x1b[1;37;40m║'
     pilih_lain()
 
 
 def pilih_lain():
-    other = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    other = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if other == '':
         print '\x1b[1;91m[!] Can\'t empty'
         pilih_lain()
@@ -2250,11 +2255,12 @@ def guard():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '╠═▶ \x1b[1;37;40m1. Enable'
-    print '╠═▶ \x1b[1;37;40m2. Disable'
-    print '╠═▶ \x1b[1;31;40m0. Back'
+    print '║╔★═█╔════════╬█║▶ \x1b[1;37;40m1. Enable ✔'
+    print '║╚═███▓▒█▒▓███║〓▷\x1b[1;37;40m2. Disable ✖'
+    print '║°◢███◤✇╩╝╯✇▶ \x1b[1;31;40m0. Back'
+    print '║███◤
     print '\x1b[1;37;40m║'
-    g = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
+    g = raw_input('╚═\x1b[1;92m▶\x1b[1;97m ')
     if g == '1':
         aktif = 'true'
         gaz(toket, aktif)
