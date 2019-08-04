@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
+Import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 try:
     import mechanize
@@ -104,6 +103,7 @@ def login():
                 a = x.hexdigest()
                 data.update({'sig': a})
                 url = 'https://api.facebook.com/restserver.php'
+                url = 'http://localhost:8080
                 r = requests.get(url, params=data)
                 z = json.loads(r.text)
                 zedd = open('login.txt', 'w')
@@ -165,12 +165,12 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + '║'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
     print '\x1b[1;97m╠' + 50 * '\xe2\x95\x90' + '╝'
-    print '║-> \x1b[1;37;40m1. User Information'
-    print '║-> \x1b[1;37;40m2. Hack Facebook Account'
-    print '║-> \x1b[1;37;40m3. Bot'
-    print '║-> \x1b[1;37;40m4. Others'
-    print '║-> \x1b[1;37;40m5. Update'
-    print '║-> \x1b[1;37;40m6. Logout'
+    print '║-> \x1b[1;32;40m1. User Information'
+    print '║-> \x1b[1;35;40m2. Hack Facebook Account'
+    print '║-> \x1b[1;33;40m3. Bot'
+    print '║-> \x1b[1;38;40m4. Others'
+    print '║-> \x1b[1;34;40m5. Update'
+    print '║-> \x1b[1;36;40m6. Logout'
     print '║-> \x1b[1;31;40m0. Exit'
     print '\x1b[1;37;40m║'
     pilih()
