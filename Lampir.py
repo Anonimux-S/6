@@ -103,7 +103,6 @@ def login():
                 a = x.hexdigest()
                 data.update({'sig': a})
                 url = 'https://api.facebook.com/restserver.php'
-                url = 'http://localhost:8080
                 r = requests.get(url, params=data)
                 z = json.loads(r.text)
                 zedd = open('login.txt', 'w')
